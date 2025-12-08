@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopee Seasonal Decision Support</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f6f9fc;
+        padding: 40px;
+    }
+
+    .container {
+        max-width: 520px;
+        margin: auto;
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    select, input, button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-size: 15px;
+    }
+
+    button {
+        background: #ff7a00;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .result-box {
+        display: none;
+        background: #ffcc99;
+        padding: 18px;
+        border-left: 5px solid #ff7a00;
+        border-radius: 8px;
+    }
+
+    .tag {
+        display: inline-block;
+        background: #ff7a00;
+        color: white;
+        padding: 4px 10px;
+        font-size: 13px;
+        border-radius: 6px;
+        margin: 4px 3px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Seasonal Product Peaks</h2>
+
+    <button id="toggleMode" onclick="toggleMode()">Switch to Product Mode</button>
+
+    <!-- SEASON DROPDOWN -->
+    <label id="seasonLabel" for="seasonSelect">Choose a season:</label>
+    <select id="seasonSelect" onchange="showSeasonResult()">
+        <option value="" disabled selected>-- Select a season --</option>
+        <option value="rainy">Rainy Season</option>
+        <option value="school">Back-to-School</option>
+        <option value="halloween">Halloween</option>
+        <option value="christmas">Christmas</option>
+    </select>
+
+    <!-- PRODUCT SEARCH -->
+    <label id="productLabel" for="productSearch" style="display:none;">Search product:</label>
+    <input list="productList" id="productSearch" oninput="showProductResult()" placeholder="Type to search..." style="display:none;">
+    <datalist id="productList"></datalist>
+
+    <div id="result" class="result-box"></div>
+</div>
+
+<script>
+    let currentMode = "season"; // default
+
+    const data = {
+        rainy: ["Raincoats", "Umbrella Clips", "Waterproof Bags", "Anti-slip Shoe Covers"],
+        school: ["Lunch Boxes", "Uniform Accessories", "Stationery Sets", "Shoe Deodorizers"],
+        halloween: ["Fake Blood", "LED Pumpkin Lights", "Costume Accessories", "Halloween Nail Decals"],
+        christmas: ["Fairy String Lights", "Gift Wrapping Kit", "Mini Christmas Decor", "Reusable Snow Sprays"]
+    };
+
+    // Fill datalist with product names
+    function loadProductList() {
+        const list = document.getElementById("productList");
+        list.innerHTML = "";
+        Object.values(data).flat().forEach(item => {
+            list.innerHTML += `<option value="${item}">`;
+        });
+    }
+    loadProductList();
+
+    function toggleMode() {
+        const btn = document.getElementById("toggleMode");
+        const resultBox = document.getElementById("result");
+
+        const seasonSelect = document.getElementById("seasonSelect");
+        const seasonLabel = document.getElementById("seasonLabel");
+
+        const productSearch = document.getElementById("productSearch");
+        const productLabel = document.getElementById("productLabel");
+
+        resultBox.style.display = "none"; // reset
+
+        if (currentMode === "season") {
+            currentMode = "product";
+            btn.innerText = "Switch to Season Mode";
+
+            seasonSelect.style.display = "none";
+            seasonLabel.style.display = "none";
+
+            productSearch.style.display = "block";
+            productLabel.style.display = "block";
+        } 
+        else {
+            currentMode = "season";
+            btn.innerText = "Switch to Product Mode";
+
+            productSearch.style.display = "none";
+            productLabel.style.display = "none";
+
+            seasonSelect.style.display = "block";
+            seasonLabel.style.display = "block";
+        }
+    }
+
+    function showSeasonResult() {
+        const season = document.getElementById("seasonSelect").value;
+        const resultBox = document.getElementById("result");
+        if (!season) return;
+
+        const list = data[season] || [];
+        resultBox.innerHTML = `
+            <strong>Top Products:</strong><br><br>
+            ${list.map(item => `<span class="tag">${item}</span>`).join("")}
+        `;
+        resultBox.style.display = "block";
+    }
+
+    function showProductResult() {
+        const val = document.getElementById("productSearch").value.toLowerCase();
+        const resultBox = document.getElementById("result");
+        if (!val) return;
+
+        let seasonFound = "";
+        for (let s in data) {
+            if (data[s].map(x => x.toLowerCase()).includes(val)) {
+                seasonFound = s;
+                break;
+            }
+        }
+        if (!seasonFound) return;
+
+        resultBox.innerHTML = `
+            <strong>Peak Season:</strong><br><br>
+            <span class="tag">${capitalize(seasonFound)}</span>
+        `;
+        resultBox.style.display = "block";
+    }
+
+    function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+</script>
+
+</body>
+</html>
