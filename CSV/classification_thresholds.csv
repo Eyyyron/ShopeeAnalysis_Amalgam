@@ -1,0 +1,6 @@
+Metric,Threshold,Interpretation
+CV - Stable,0.3,CV < threshold -> Stable demand
+CV - Variable,0.7,CV >= threshold -> High variability
+Seasonal - Weak,0.5,Amplitude < threshold -> Weak seasonality
+Seasonal - Strong,1.0,Amplitude >= threshold -> Strong seasonality
+Low Demand,59.739766081871345,Mean sales < threshold -> Low demand

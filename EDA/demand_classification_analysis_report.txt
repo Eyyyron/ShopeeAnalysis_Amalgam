@@ -1,0 +1,266 @@
+
+
+1. EXECUTIVE SUMMARY
+======================================================================
+This analysis classified 126556 products into three demand segments:
+- Stable-demand: 98 products (0.1%)
+- Seasonal-demand: 94819 products (74.9%)
+- Low-demand: 31639 products (25.0%)
+
+
+2. CLASSIFICATION METHODOLOGY
+======================================================================
+Products were classified using decomposition metrics from Section 2.2.2:
+
+a) Coefficient of Variation (CV = std/mean)
+   - Measures demand stability
+   - Lower CV indicates more stable demand
+   - Threshold: CV < 0.3 for stable
+
+b) Seasonal Amplitude (from STL decomposition)
+   - Measures strength of seasonal patterns
+   - Higher amplitude indicates stronger seasonality
+   - Threshold: Amplitude >= 1.0 for strong seasonality
+
+c) Trend Slope (from decomposed trend component)
+   - Measures long-term growth/decline
+   - Extracted from seasonal decomposition analysis
+
+NOTE: This classification builds upon the seasonal and trend decomposition
+performed in Section 2.2.2, utilizing the identified seasonal components
+to categorize products into actionable demand segments.
+
+
+3. STABLE-DEMAND PRODUCTS
+======================================================================
+Characteristics:
+- Low variability (CV < 0.3)
+- Weak seasonality (Amplitude < 0.5)
+- Consistent month-to-month sales
+
+Implications:
+- Predictable inventory needs
+- Lower safety stock requirements
+- Efficient production scheduling
+- Suitable for Just-In-Time inventory
+
+
+4. SEASONAL-DEMAND PRODUCTS
+======================================================================
+Characteristics:
+- Strong seasonal patterns (Amplitude >= 1.0) OR
+- Moderate seasonality with variable demand
+
+Observed Patterns:
+
+Top 5 Most Seasonal Products:
+  - GDPLUS BAVIN Waterproof Phone Bag Touch-Screen Underwater Ph... (Amplitude: 300.00)
+  - Mini LED Candle Light | Flameless Candle Lamp | Wedding Birt... (Amplitude: 300.00)
+  - Adjustable Car Battery Holder Stabilizer Fixed Bracket 19/23... (Amplitude: 300.00)
+  - 200*200 Metal Rack Steel Rack Cold-rolled Metal Shelf Storag... (Amplitude: 300.00)
+  - Steel-Framed Folding Storage Box – For Quilts, Clothes, Ward... (Amplitude: 300.00)
+
+
+Implications:
+- Requires pre-season inventory buildup
+- Higher safety stock during peak periods
+- Need for flexible production capacity
+- Promotional opportunities during peak seasons
+
+
+5. LOW-DEMAND PRODUCTS
+======================================================================
+Characteristics:
+- Mean monthly sales < 59.74
+- Often sporadic or infrequent purchases
+
+Implications:
+- Consider discontinuation or reduced SKU count
+- Potential for consolidation with similar products
+- Lower inventory priority
+- Evaluate profitability vs. storage costs
+
+
+6. CATEGORY INSIGHTS
+======================================================================
+
+Fashion Accessories:
+  - Stable-demand: 1 (0.0%)
+  - Seasonal-demand: 4446 (75.1%)
+  - Low-demand: 1475 (24.9%)
+
+Stationery:
+  - Stable-demand: 6 (0.1%)
+  - Seasonal-demand: 6288 (76.8%)
+  - Low-demand: 1893 (23.1%)
+
+Motorcycles:
+  - Stable-demand: 2 (0.1%)
+  - Seasonal-demand: 2223 (80.4%)
+  - Low-demand: 540 (19.5%)
+
+Audio:
+  - Stable-demand: 2 (0.1%)
+  - Seasonal-demand: 1196 (69.5%)
+  - Low-demand: 524 (30.4%)
+
+Home & Living:
+  - Stable-demand: 25 (0.1%)
+  - Seasonal-demand: 21643 (76.4%)
+  - Low-demand: 6670 (23.5%)
+
+Sports & Outdoors:
+  - Stable-demand: 2 (0.0%)
+  - Seasonal-demand: 3057 (75.8%)
+  - Low-demand: 973 (24.1%)
+
+Women Clothes:
+  - Stable-demand: 3 (0.0%)
+  - Seasonal-demand: 6988 (77.2%)
+  - Low-demand: 2066 (22.8%)
+
+Pets:
+  - Stable-demand: 11 (0.3%)
+  - Seasonal-demand: 3196 (79.4%)
+  - Low-demand: 820 (20.4%)
+
+Beauty:
+  - Stable-demand: 9 (0.1%)
+  - Seasonal-demand: 9981 (75.8%)
+  - Low-demand: 3184 (24.2%)
+
+Food & Beverages:
+  - Stable-demand: 2 (0.1%)
+  - Seasonal-demand: 2426 (69.5%)
+  - Low-demand: 1062 (30.4%)
+
+Hobbies & Collections:
+  - Stable-demand: 2 (0.1%)
+  - Seasonal-demand: 1632 (76.3%)
+  - Low-demand: 505 (23.6%)
+
+Mom & Baby:
+  - Stable-demand: 9 (0.2%)
+  - Seasonal-demand: 3798 (79.5%)
+  - Low-demand: 973 (20.4%)
+
+Mobile & Gadgets:
+  - Stable-demand: 6 (0.1%)
+  - Seasonal-demand: 5287 (65.9%)
+  - Low-demand: 2726 (34.0%)
+
+Women Bags:
+  - Stable-demand: 1 (0.0%)
+  - Seasonal-demand: 1943 (76.4%)
+  - Low-demand: 598 (23.5%)
+
+Home Appliances:
+  - Stable-demand: 1 (0.0%)
+  - Seasonal-demand: 2550 (70.8%)
+  - Low-demand: 1050 (29.2%)
+
+Health:
+  - Stable-demand: 8 (0.1%)
+  - Seasonal-demand: 4028 (74.1%)
+  - Low-demand: 1401 (25.8%)
+
+Baby & Kids Fashion:
+  - Stable-demand: 3 (0.1%)
+  - Seasonal-demand: 3047 (68.9%)
+  - Low-demand: 1372 (31.0%)
+
+Men Clothes:
+  - Stable-demand: 1 (0.0%)
+  - Seasonal-demand: 3049 (78.4%)
+  - Low-demand: 841 (21.6%)
+
+Women Shoes:
+  - Stable-demand: 0 (0.0%)
+  - Seasonal-demand: 1916 (75.1%)
+  - Low-demand: 636 (24.9%)
+
+Automobiles:
+  - Stable-demand: 2 (0.1%)
+  - Seasonal-demand: 1651 (78.7%)
+  - Low-demand: 444 (21.2%)
+
+Travel & Luggage:
+  - Stable-demand: 0 (0.0%)
+  - Seasonal-demand: 926 (75.7%)
+  - Low-demand: 298 (24.3%)
+
+Men Shoes:
+  - Stable-demand: 0 (0.0%)
+  - Seasonal-demand: 917 (76.0%)
+  - Low-demand: 289 (24.0%)
+
+Watches:
+  - Stable-demand: 0 (0.0%)
+  - Seasonal-demand: 371 (71.9%)
+  - Low-demand: 145 (28.1%)
+
+Men Bags:
+  - Stable-demand: 0 (0.0%)
+  - Seasonal-demand: 412 (75.2%)
+  - Low-demand: 136 (24.8%)
+
+Books & Magazines:
+  - Stable-demand: 1 (0.3%)
+  - Seasonal-demand: 241 (62.6%)
+  - Low-demand: 143 (37.1%)
+
+Cameras & Drones:
+  - Stable-demand: 1 (0.1%)
+  - Seasonal-demand: 447 (61.8%)
+  - Low-demand: 275 (38.0%)
+
+Computers & Accessories:
+  - Stable-demand: 0 (0.0%)
+  - Seasonal-demand: 1005 (64.7%)
+  - Low-demand: 549 (35.3%)
+
+Gaming & Consoles:
+  - Stable-demand: 0 (0.0%)
+  - Seasonal-demand: 119 (73.5%)
+  - Low-demand: 43 (26.5%)
+
+Muslim Fashion:
+  - Stable-demand: 0 (0.0%)
+  - Seasonal-demand: 12 (75.0%)
+  - Low-demand: 4 (25.0%)
+
+Tickets, Vouchers & Services:
+  - Stable-demand: 0 (0.0%)
+  - Seasonal-demand: 24 (85.7%)
+  - Low-demand: 4 (14.3%)
+
+
+7. RECOMMENDATIONS
+{'='*70}
+Based on the classification:
+
+For Stable-Demand Products:
+  - Implement lean inventory practices
+  - Use continuous replenishment models
+  - Focus on cost optimization
+
+For Seasonal-Demand Products:
+  - Develop pre-season stocking strategies
+  - Plan promotions around peak periods
+  - Consider flexible sourcing options
+  - Validate against Philippine seasonal events (rainy season, summer, holidays)
+
+For Low-Demand Products:
+  - Review SKU rationalization opportunities
+  - Consider made-to-order fulfillment
+  - Evaluate profitability and strategic value
+
+
+8. NEXT STEPS
+{'='*70}
+1. Validate classifications with business stakeholders
+2. Develop segment-specific forecasting models
+3. Adjust inventory policies by demand type
+4. Monitor and refine classifications quarterly
+5. Integrate with supply chain planning systems
+

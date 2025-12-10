@@ -1,0 +1,6 @@
+,product,mean_monthly_sales,mean_monthly_sales,mean_monthly_sales,coefficient_of_variation,coefficient_of_variation,seasonal_amplitude,seasonal_amplitude
+,count,mean,median,std,mean,median,mean,median
+demand_type,,,,,,,,
+Low-demand,31639,30.191,32.911,18.032,9.45,4.887,18.899,9.774
+Seasonal-demand,94819,952.778,236.2,5924.688,9.235,4.071,18.47,8.143
+Stable-demand,98,5551.407,4187.189,4359.504,0.26,0.266,0.52,0.532
