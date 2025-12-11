@@ -1,0 +1,423 @@
+{
+  "Rainy Season": [
+    {
+      "Men Clothes": [
+        "Hoodies & Sweatshirts",
+        "Jackets, Coats & Vests",
+        "Pants",
+        "Sweaters & Cardigans",
+        "Sleepwear",
+        "Socks"
+      ]
+    },
+    {
+      "Women Clothes": [
+        "Hoodies & Sweatshirts",
+        "Jackets, Coats & Vests",
+        "Pants & Leggings",
+        "Sweaters & Cardigans",
+        "Sleepwear & Pajamas",
+        "Socks & Stockings"
+      ]
+    },
+    {
+      "Men Shoes": [
+        "Boots",
+        "Sneakers"
+      ]
+    },
+    {
+      "Women Shoes": [
+        "Boots",
+        "Sneakers"
+      ]
+    },
+    {
+      "Home & Living": [
+        "Bedding",
+        "Home Care Supplies",
+        "Safety & Security",
+        "Home Organizers",
+        "Lighting",
+        "Tools & Home Improvement"
+      ]
+    },
+    {
+      "Health": [
+        "Medical Supplies",
+        "Food Supplement",
+        "Personal Care"
+      ]
+    },
+    {
+      "Motorcycles": [
+        "Motorcycle Helmets & Accessories",
+        "Motorcycle Accessories"
+      ]
+    },
+    {
+      "Automobiles": [
+        "Automobile Exterior Accessories",
+        "Automotive Oils & Lubes",
+        "Automotive Tools"
+      ]
+    },
+    {
+      "Mom & Baby": [
+        "Baby Healthcare",
+        "Bath & Body Care"
+      ]
+    },
+    {
+      "Pets": [
+        "Pet Healthcare",
+        "Pet Grooming"
+      ]
+    },
+    {
+      "Home Appliances": [
+        "Small Household Appliances",
+        "Electrical Circuitry & Parts"
+      ]
+    }
+  ],
+  "Summer Season": [
+    {
+      "Men Clothes": [
+        "Shorts",
+        "Tops",
+        "Sets"
+      ]
+    },
+    {
+      "Women Clothes": [
+        "Shorts",
+        "Dresses",
+        "Tops",
+        "Sets",
+        "Skirts"
+      ]
+    },
+    {
+      "Fashion Accessories": [
+        "Eyewear",
+        "Hats & Caps",
+        "Hair Accessories",
+        "Scarves & Shawls"
+      ]
+    },
+    {
+      "Sports & Outdoors": [
+        "Sports Footwear",
+        "Sports & Outdoor Apparels",
+        "Sports & Outdoor Recreation Equipments"
+      ]
+    },
+    {
+      "Travel & Luggage": [
+        "Luggage",
+        "Travel Accessories",
+        "Travel Bags"
+      ]
+    },
+    {
+      "Women Shoes / Men Shoes": [
+        "Sandals & Flip Flops",
+        "Slip Ons & Mules",
+        "Flats",
+        "Wedges"
+      ]
+    },
+    {
+      "Beauty": [
+        "Skincare",
+        "Hair Care",
+        "Bath & Body Care"
+      ]
+    },
+    {
+      "Food & Beverages": [
+        "Beverages",
+        "Fresh & Frozen Food",
+        "Snacks",
+        "Dairy & Eggs"
+      ]
+    },
+    {
+      "Mobile & Gadgets": [
+        "Accessories",
+        "Wearable Devices"
+      ]
+    },
+    {
+      "Home Appliances": [
+        "Kitchen Appliances",
+        "Small Household Appliances"
+      ]
+    }
+  ],
+  "Valentine's Season": [
+    {
+      "Fashion Accessories": [
+        "Earrings",
+        "Necklaces",
+        "Bracelets & Bangles",
+        "Rings",
+        "Belts",
+        "Accessories Sets & Packages"
+      ]
+    },
+    {
+      "Watches": [
+        "Men Watches",
+        "Women Watches",
+        "Set & Couple Watches"
+      ]
+    },
+    {
+      "Women Bags / Men Bags": [
+        "Clutches & Wristlets",
+        "Crossbody & Shoulder Bags",
+        "Wallets"
+      ]
+    },
+    {
+      "Beauty": [
+        "Perfumes & Fragrances",
+        "Makeup",
+        "Beauty Sets & Packages",
+        "Hand, Foot & Nail Care"
+      ]
+    },
+    {
+      "Food & Beverages": [
+        "Gift Set & Hampers",
+        "Alcoholic Beverages",
+        "Snacks"
+      ]
+    },
+    {
+      "Hobbies & Collections": [
+        "Souvenirs",
+        "Collectible Items"
+      ]
+    },
+    {
+      "Books & Magazines": [
+        "Books"
+      ]
+    }
+  ],
+  "Holy Week / Lent Season": [
+    {
+      "Travel & Luggage": [
+        "Luggage",
+        "Travel Bags",
+        "Travel Accessories"
+      ]
+    },
+    {
+      "Home & Living": [
+        "Fengshui & Religious Supplies",
+        "Home Fragrance & Aromatherapy"
+      ]
+    },
+    {
+      "Food & Beverages": [
+        "Baking Needs",
+        "Cooking Essentials",
+        "Convenience / Ready"
+      ]
+    },
+    {
+      "Men Clothes / Women Clothes": [
+        "Traditional Wear"
+      ]
+    },
+    {
+      "Mom & Baby": [
+        "Baby Travel Essentials",
+        "Bath & Body Care"
+      ]
+    },
+    {
+      "Books & Magazines": [
+        "Books",
+        "Magazines & Newspaper"
+      ]
+    }
+  ],
+  "Back-to-School Season": [
+    {
+      "Stationery": [
+        "Art Supplies",
+        "Notebooks & Papers",
+        "Writing & Correction",
+        "School & Office Equipment",
+        "Gift & Wrapping"
+      ]
+    },
+    {
+      "Men Bags / Women Bags": [
+        "Backpacks",
+        "Laptop Bags"
+      ]
+    },
+    {
+      "Computers & Accessories": [
+        "Laptops",
+        "Printers & Scanners",
+        "Keyboards & Mice",
+        "Monitors",
+        "Data Storage",
+        "Peripherals & Accessories"
+      ]
+    },
+    {
+      "Mobile & Gadgets": [
+        "Tablets",
+        "Mobile Phones",
+        "Accessories"
+      ]
+    },
+    {
+      "Men Clothes / Women Clothes": [
+        "Socks",
+        "Tops",
+        "Pants"
+      ]
+    },
+    {
+      "Home Appliances": [
+        "Small Household Appliances"
+      ]
+    },
+    {
+      "Mom & Baby": [
+        "Nursery",
+        "Baby Travel Essentials"
+      ]
+    }
+  ],
+  "Halloween / Undas Season": [
+    {
+      "Women Clothes / Men Clothes": [
+        "Costumes"
+      ]
+    },
+    {
+      "Home & Living": [
+        "Decoration",
+        "Safety & Security"
+      ]
+    },
+    {
+      "Travel & Luggage": [
+        "Luggage",
+        "Travel Bags"
+      ]
+    },
+    {
+      "Food & Beverages": [
+        "Snacks",
+        "Convenience / Ready",
+        "Fresh & Frozen Food"
+      ]
+    },
+    {
+      "Beauty": [
+        "Makeup"
+      ]
+    },
+    {
+      "Hobbies & Collections": [
+        "Toys & Games",
+        "Souvenirs"
+      ]
+    },
+    {
+      "Automobiles / Motorcycles": [
+        "Automobile Exterior Accessories",
+        "Motorcycle Accessories"
+      ]
+    }
+  ],
+  "Christmas Season": [
+    {
+      "Fashion Accessories": [
+        "Earrings",
+        "Necklaces",
+        "Bracelets & Bangles",
+        "Rings",
+        "Accessories Sets & Packages"
+      ]
+    },
+    {
+      "Watches": [
+        "Men Watches",
+        "Women Watches",
+        "Set & Couple Watches"
+      ]
+    },
+    {
+      "Women Bags / Men Bags": [
+        "Wallets",
+        "Crossbody & Shoulder Bags",
+        "Tote Bags"
+      ]
+    },
+    {
+      "Home & Living": [
+        "Decoration",
+        "Kitchenware",
+        "Party Supplies",
+        "Home Organizers"
+      ]
+    },
+    {
+      "Hobbies & Collections": [
+        "Toys & Games",
+        "Souvenirs",
+        "Photo Albums"
+      ]
+    },
+    {
+      "Food & Beverages": [
+        "Gift Set & Hampers",
+        "Alcoholic Beverages",
+        "Bakery",
+        "Snacks"
+      ]
+    },
+    {
+      "Beauty": [
+        "Beauty Sets & Packages",
+        "Perfumes & Fragrances",
+        "Skincare"
+      ]
+    },
+    {
+      "Electronics": [
+        "Audio",
+        "Mobile & Gadgets",
+        "Computers & Accessories",
+        "Cameras & Drones",
+        "Gaming & Consoles"
+      ]
+    },
+    {
+      "Women Clothes / Men Clothes": [
+        "Dresses",
+        "Tops",
+        "Sets",
+        "Jackets, Coats & Vests"
+      ]
+    },
+    {
+      "Home Appliances": [
+        "TVs & Accessories",
+        "Kitchen Appliances"
+      ]
+    }
+  ]
+}

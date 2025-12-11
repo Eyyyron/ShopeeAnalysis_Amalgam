@@ -1,0 +1,2581 @@
+{
+  "metadata": {
+    "generated_at": "2025-12-11T17:11:46.498990",
+    "forecast_months": 12,
+    "common_categories_count": 167,
+    "uncommon_categories_count": 287
+  },
+  "seasons": {
+    "Rainy Season": [
+      {
+        "type": "common",
+        "second_level": "Hoodies & Sweatshirts",
+        "top_level": "Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Jackets, Coats & Vests",
+        "top_level": "Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Pants",
+        "top_level": "Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Sweaters & Cardigans",
+        "top_level": "Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Sleepwear",
+        "top_level": "Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Socks",
+        "top_level": "Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Pants & Leggings",
+        "top_level": "Women Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Sleepwear & Pajamas",
+        "top_level": "Women Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Socks & Stockings",
+        "top_level": "Women Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Boots",
+        "top_level": "Men Shoes"
+      },
+      {
+        "type": "common",
+        "second_level": "Sneakers",
+        "top_level": "Men Shoes"
+      },
+      {
+        "type": "common",
+        "second_level": "Bedding",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Home Care Supplies",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Safety & Security",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Home Organizers",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Lighting",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Tools & Home Improvement",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Medical Supplies",
+        "top_level": "Health"
+      },
+      {
+        "type": "common",
+        "second_level": "Food Supplement",
+        "top_level": "Health"
+      },
+      {
+        "type": "common",
+        "second_level": "Personal Care",
+        "top_level": "Health"
+      },
+      {
+        "type": "common",
+        "second_level": "Motorcycle Helmets & Accessories",
+        "top_level": "Motorcycles"
+      },
+      {
+        "type": "common",
+        "second_level": "Motorcycle Accessories",
+        "top_level": "Motorcycles"
+      },
+      {
+        "type": "common",
+        "second_level": "Automobile Exterior Accessories",
+        "top_level": "Automobiles"
+      },
+      {
+        "type": "common",
+        "second_level": "Automotive Oils & Lubes",
+        "top_level": "Automobiles"
+      },
+      {
+        "type": "common",
+        "second_level": "Automotive Tools",
+        "top_level": "Automobiles"
+      },
+      {
+        "type": "common",
+        "second_level": "Baby Healthcare",
+        "top_level": "Mom & Baby"
+      },
+      {
+        "type": "common",
+        "second_level": "Bath & Body Care",
+        "top_level": "Mom & Baby"
+      },
+      {
+        "type": "common",
+        "second_level": "Pet Healthcare",
+        "top_level": "Pets"
+      },
+      {
+        "type": "common",
+        "second_level": "Pet Grooming",
+        "top_level": "Pets"
+      },
+      {
+        "type": "common",
+        "second_level": "Small Household Appliances",
+        "top_level": "Home Appliances"
+      },
+      {
+        "type": "common",
+        "second_level": "Electrical Circuitry & Parts",
+        "top_level": "Home Appliances"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Media Players",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Microphones",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Others",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automobile Spare Parts",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automotive Keychains & Key Covers",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Clothes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Mittens & Footwear",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Boy Clothes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Boy Shoes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Girl Clothes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Girl Shoes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Beauty Tools",
+        "top_level": "Beauty",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Men's Care",
+        "top_level": "Beauty",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Camera Care",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Lenses",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Security Cameras & Systems",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Desktop & Laptop Components",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Desktop Computers",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Network Components",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Softwares",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Anklets",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Gloves",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Investment Precious Metals",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Neckties, Bow Ties & Cravats",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Breakfast Cereals & Spread",
+        "top_level": "Food & Beverages",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Food Staples",
+        "top_level": "Food & Beverages",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Console Machines",
+        "top_level": "Gaming & Consoles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Video Games",
+        "top_level": "Gaming & Consoles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Sexual Wellness",
+        "top_level": "Health",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "CD, DVD & Bluray",
+        "top_level": "Hobbies & Collections",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Needlework",
+        "top_level": "Hobbies & Collections",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Bathrooms",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Dinnerware",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Furniture",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Gardening",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Hand Warmers, Hot Water Bags & Ice Bags",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Batteries",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Large Household Appliances",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Remote Controls",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Briefcases",
+        "top_level": "Men Bags",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Waist Bags & Chest Bags",
+        "top_level": "Men Bags",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Innerwear & Underwear",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Jeans",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Occupational Attire",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Suits",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Loafers & Boat Shoes",
+        "top_level": "Men Shoes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Oxfords & Lace",
+        "top_level": "Men Shoes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Sim Cards",
+        "top_level": "Mobile & Gadgets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Walkie Talkies",
+        "top_level": "Mobile & Gadgets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Safety",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Diapering & Potty",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Feeding Essentials",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Maternity Healthcare",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Milk Formula & Baby Food",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Motorcycle Spare Parts",
+        "top_level": "Motorcycles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Men Muslim Wear",
+        "top_level": "Muslim Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Women Muslim Wear",
+        "top_level": "Muslim Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Litter & Toilet",
+        "top_level": "Pets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Pet Food",
+        "top_level": "Pets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Letters & Envelopes",
+        "top_level": "Stationery",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Events & Attractions",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Services",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Telco",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Fabric",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Jumpsuits, Playsuits & Overalls",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Lingerie & Underwear",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Maternity Wear",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Heels",
+        "top_level": "Women Shoes",
+        "confidence": "inferred_from_demand"
+      }
+    ],
+    "Summer Season": [
+      {
+        "type": "common",
+        "second_level": "Shorts",
+        "top_level": "Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Tops",
+        "top_level": "Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Sets",
+        "top_level": "Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Dresses",
+        "top_level": "Women Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Skirts",
+        "top_level": "Women Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Eyewear",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Hats & Caps",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Hair Accessories",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Scarves & Shawls",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Sports Footwear",
+        "top_level": "Sports & Outdoors"
+      },
+      {
+        "type": "common",
+        "second_level": "Sports & Outdoor Apparels",
+        "top_level": "Sports & Outdoors"
+      },
+      {
+        "type": "common",
+        "second_level": "Sports & Outdoor Recreation Equipments",
+        "top_level": "Sports & Outdoors"
+      },
+      {
+        "type": "common",
+        "second_level": "Luggage",
+        "top_level": "Travel & Luggage"
+      },
+      {
+        "type": "common",
+        "second_level": "Travel Accessories",
+        "top_level": "Travel & Luggage"
+      },
+      {
+        "type": "common",
+        "second_level": "Travel Bags",
+        "top_level": "Travel & Luggage"
+      },
+      {
+        "type": "common",
+        "second_level": "Sandals & Flip Flops",
+        "top_level": "Women Shoes / Men Shoes"
+      },
+      {
+        "type": "common",
+        "second_level": "Slip Ons & Mules",
+        "top_level": "Women Shoes / Men Shoes"
+      },
+      {
+        "type": "common",
+        "second_level": "Flats",
+        "top_level": "Women Shoes / Men Shoes"
+      },
+      {
+        "type": "common",
+        "second_level": "Wedges",
+        "top_level": "Women Shoes / Men Shoes"
+      },
+      {
+        "type": "common",
+        "second_level": "Skincare",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Hair Care",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Bath & Body Care",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Beverages",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Fresh & Frozen Food",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Snacks",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Dairy & Eggs",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Accessories",
+        "top_level": "Mobile & Gadgets"
+      },
+      {
+        "type": "common",
+        "second_level": "Wearable Devices",
+        "top_level": "Mobile & Gadgets"
+      },
+      {
+        "type": "common",
+        "second_level": "Kitchen Appliances",
+        "top_level": "Home Appliances"
+      },
+      {
+        "type": "common",
+        "second_level": "Small Household Appliances",
+        "top_level": "Home Appliances"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Amplifiers & Mixers",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Media Players",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Microphones",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Others",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automobile Spare Parts",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automotive Care",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automotive Keychains & Key Covers",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Clothes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Mittens & Footwear",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Boy Clothes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Boy Shoes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Girl Clothes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Girl Shoes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Camera Care",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Security Cameras & Systems",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Desktop & Laptop Components",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Network Components",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Anklets",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Investment Precious Metals",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Neckties, Bow Ties & Cravats",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Needlework",
+        "top_level": "Hobbies & Collections",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Remote Controls",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Suits",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Loafers & Boat Shoes",
+        "top_level": "Men Shoes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Walkie Talkies",
+        "top_level": "Mobile & Gadgets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Feeding Essentials",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Maternity Healthcare",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Milk Formula & Baby Food",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Prayer Attire & Equipment",
+        "top_level": "Muslim Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Letters & Envelopes",
+        "top_level": "Stationery",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Services",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Shopping",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Utilities",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Fabric",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Jumpsuits, Playsuits & Overalls",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Lingerie & Underwear",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Maternity Wear",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Heels",
+        "top_level": "Women Shoes",
+        "confidence": "inferred_from_demand"
+      }
+    ],
+    "Valentine's Season": [
+      {
+        "type": "common",
+        "second_level": "Earrings",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Necklaces",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Bracelets & Bangles",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Rings",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Belts",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Accessories Sets & Packages",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Men Watches",
+        "top_level": "Watches"
+      },
+      {
+        "type": "common",
+        "second_level": "Women Watches",
+        "top_level": "Watches"
+      },
+      {
+        "type": "common",
+        "second_level": "Set & Couple Watches",
+        "top_level": "Watches"
+      },
+      {
+        "type": "common",
+        "second_level": "Clutches & Wristlets",
+        "top_level": "Women Bags / Men Bags"
+      },
+      {
+        "type": "common",
+        "second_level": "Crossbody & Shoulder Bags",
+        "top_level": "Women Bags / Men Bags"
+      },
+      {
+        "type": "common",
+        "second_level": "Wallets",
+        "top_level": "Women Bags / Men Bags"
+      },
+      {
+        "type": "common",
+        "second_level": "Perfumes & Fragrances",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Makeup",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Beauty Sets & Packages",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Hand, Foot & Nail Care",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Gift Set & Hampers",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Alcoholic Beverages",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Snacks",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Souvenirs",
+        "top_level": "Hobbies & Collections"
+      },
+      {
+        "type": "common",
+        "second_level": "Collectible Items",
+        "top_level": "Hobbies & Collections"
+      },
+      {
+        "type": "common",
+        "second_level": "Books",
+        "top_level": "Books & Magazines"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Amplifiers & Mixers",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Softwares",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Console Machines",
+        "top_level": "Gaming & Consoles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Video Games",
+        "top_level": "Gaming & Consoles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "CD, DVD & Bluray",
+        "top_level": "Hobbies & Collections",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Needlework",
+        "top_level": "Hobbies & Collections",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Walkie Talkies",
+        "top_level": "Mobile & Gadgets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Men Muslim Wear",
+        "top_level": "Muslim Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Shopping",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Utilities",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      }
+    ],
+    "Holy Week / Lent Season": [
+      {
+        "type": "common",
+        "second_level": "Luggage",
+        "top_level": "Travel & Luggage"
+      },
+      {
+        "type": "common",
+        "second_level": "Travel Bags",
+        "top_level": "Travel & Luggage"
+      },
+      {
+        "type": "common",
+        "second_level": "Travel Accessories",
+        "top_level": "Travel & Luggage"
+      },
+      {
+        "type": "common",
+        "second_level": "Fengshui & Religious Supplies",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Home Fragrance & Aromatherapy",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Baking Needs",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Cooking Essentials",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Convenience / Ready",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Traditional Wear",
+        "top_level": "Men Clothes / Women Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Baby Travel Essentials",
+        "top_level": "Mom & Baby"
+      },
+      {
+        "type": "common",
+        "second_level": "Bath & Body Care",
+        "top_level": "Mom & Baby"
+      },
+      {
+        "type": "common",
+        "second_level": "Books",
+        "top_level": "Books & Magazines"
+      },
+      {
+        "type": "common",
+        "second_level": "Magazines & Newspaper",
+        "top_level": "Books & Magazines"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Amplifiers & Mixers",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Microphones",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automotive Care",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automotive Keychains & Key Covers",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Girl Shoes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Security Cameras & Systems",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Desktop & Laptop Components",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Investment Precious Metals",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Remote Controls",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Suits",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Feeding Essentials",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Maternity Healthcare",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Prayer Attire & Equipment",
+        "top_level": "Muslim Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Shopping",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Utilities",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Fabric",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Heels",
+        "top_level": "Women Shoes",
+        "confidence": "inferred_from_demand"
+      }
+    ],
+    "Back-to-School Season": [
+      {
+        "type": "common",
+        "second_level": "Art Supplies",
+        "top_level": "Stationery"
+      },
+      {
+        "type": "common",
+        "second_level": "Notebooks & Papers",
+        "top_level": "Stationery"
+      },
+      {
+        "type": "common",
+        "second_level": "Writing & Correction",
+        "top_level": "Stationery"
+      },
+      {
+        "type": "common",
+        "second_level": "School & Office Equipment",
+        "top_level": "Stationery"
+      },
+      {
+        "type": "common",
+        "second_level": "Gift & Wrapping",
+        "top_level": "Stationery"
+      },
+      {
+        "type": "common",
+        "second_level": "Backpacks",
+        "top_level": "Men Bags / Women Bags"
+      },
+      {
+        "type": "common",
+        "second_level": "Laptop Bags",
+        "top_level": "Men Bags / Women Bags"
+      },
+      {
+        "type": "common",
+        "second_level": "Laptops",
+        "top_level": "Computers & Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Printers & Scanners",
+        "top_level": "Computers & Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Keyboards & Mice",
+        "top_level": "Computers & Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Monitors",
+        "top_level": "Computers & Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Data Storage",
+        "top_level": "Computers & Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Peripherals & Accessories",
+        "top_level": "Computers & Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Tablets",
+        "top_level": "Mobile & Gadgets"
+      },
+      {
+        "type": "common",
+        "second_level": "Mobile Phones",
+        "top_level": "Mobile & Gadgets"
+      },
+      {
+        "type": "common",
+        "second_level": "Accessories",
+        "top_level": "Mobile & Gadgets"
+      },
+      {
+        "type": "common",
+        "second_level": "Socks",
+        "top_level": "Men Clothes / Women Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Tops",
+        "top_level": "Men Clothes / Women Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Pants",
+        "top_level": "Men Clothes / Women Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Small Household Appliances",
+        "top_level": "Home Appliances"
+      },
+      {
+        "type": "common",
+        "second_level": "Nursery",
+        "top_level": "Mom & Baby"
+      },
+      {
+        "type": "common",
+        "second_level": "Baby Travel Essentials",
+        "top_level": "Mom & Baby"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Media Players",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Microphones",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Others",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automobile Spare Parts",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automotive Keychains & Key Covers",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Clothes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Mittens & Footwear",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Boy Clothes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Boy Shoes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Girl Clothes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Girl Shoes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Beauty Tools",
+        "top_level": "Beauty",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Men's Care",
+        "top_level": "Beauty",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Camera Care",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Lenses",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Security Cameras & Systems",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Desktop & Laptop Components",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Desktop Computers",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Network Components",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Softwares",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Anklets",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Gloves",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Neckties, Bow Ties & Cravats",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Breakfast Cereals & Spread",
+        "top_level": "Food & Beverages",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Food Staples",
+        "top_level": "Food & Beverages",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Video Games",
+        "top_level": "Gaming & Consoles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Sexual Wellness",
+        "top_level": "Health",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Needlework",
+        "top_level": "Hobbies & Collections",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Bathrooms",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Dinnerware",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Furniture",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Gardening",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Hand Warmers, Hot Water Bags & Ice Bags",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Batteries",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Large Household Appliances",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Briefcases",
+        "top_level": "Men Bags",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Waist Bags & Chest Bags",
+        "top_level": "Men Bags",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Innerwear & Underwear",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Jeans",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Occupational Attire",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Suits",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Loafers & Boat Shoes",
+        "top_level": "Men Shoes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Oxfords & Lace",
+        "top_level": "Men Shoes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Sim Cards",
+        "top_level": "Mobile & Gadgets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Safety",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Diapering & Potty",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Maternity Healthcare",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Milk Formula & Baby Food",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Motorcycle Spare Parts",
+        "top_level": "Motorcycles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Men Muslim Wear",
+        "top_level": "Muslim Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Women Muslim Wear",
+        "top_level": "Muslim Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Litter & Toilet",
+        "top_level": "Pets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Pet Food",
+        "top_level": "Pets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Letters & Envelopes",
+        "top_level": "Stationery",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Events & Attractions",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Services",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Telco",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Fabric",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Jumpsuits, Playsuits & Overalls",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Lingerie & Underwear",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Maternity Wear",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Heels",
+        "top_level": "Women Shoes",
+        "confidence": "inferred_from_demand"
+      }
+    ],
+    "Halloween / Undas Season": [
+      {
+        "type": "common",
+        "second_level": "Costumes",
+        "top_level": "Women Clothes / Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Decoration",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Safety & Security",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Luggage",
+        "top_level": "Travel & Luggage"
+      },
+      {
+        "type": "common",
+        "second_level": "Travel Bags",
+        "top_level": "Travel & Luggage"
+      },
+      {
+        "type": "common",
+        "second_level": "Snacks",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Convenience / Ready",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Fresh & Frozen Food",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Makeup",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Toys & Games",
+        "top_level": "Hobbies & Collections"
+      },
+      {
+        "type": "common",
+        "second_level": "Souvenirs",
+        "top_level": "Hobbies & Collections"
+      },
+      {
+        "type": "common",
+        "second_level": "Automobile Exterior Accessories",
+        "top_level": "Automobiles / Motorcycles"
+      },
+      {
+        "type": "common",
+        "second_level": "Motorcycle Accessories",
+        "top_level": "Automobiles / Motorcycles"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Media Players",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Microphones",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Others",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Mittens & Footwear",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Camera Care",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Lenses",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Network Components",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Gloves",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Investment Precious Metals",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Neckties, Bow Ties & Cravats",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Console Machines",
+        "top_level": "Gaming & Consoles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Sexual Wellness",
+        "top_level": "Health",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "CD, DVD & Bluray",
+        "top_level": "Hobbies & Collections",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Dinnerware",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Furniture",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Gardening",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Hand Warmers, Hot Water Bags & Ice Bags",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Batteries",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Remote Controls",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Occupational Attire",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Suits",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Oxfords & Lace",
+        "top_level": "Men Shoes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Walkie Talkies",
+        "top_level": "Mobile & Gadgets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Safety",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Diapering & Potty",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Feeding Essentials",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Maternity Healthcare",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Milk Formula & Baby Food",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Motorcycle Spare Parts",
+        "top_level": "Motorcycles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Women Muslim Wear",
+        "top_level": "Muslim Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Litter & Toilet",
+        "top_level": "Pets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Pet Food",
+        "top_level": "Pets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Events & Attractions",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Services",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Telco",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      }
+    ],
+    "Christmas Season": [
+      {
+        "type": "common",
+        "second_level": "Earrings",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Necklaces",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Bracelets & Bangles",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Rings",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Accessories Sets & Packages",
+        "top_level": "Fashion Accessories"
+      },
+      {
+        "type": "common",
+        "second_level": "Men Watches",
+        "top_level": "Watches"
+      },
+      {
+        "type": "common",
+        "second_level": "Women Watches",
+        "top_level": "Watches"
+      },
+      {
+        "type": "common",
+        "second_level": "Set & Couple Watches",
+        "top_level": "Watches"
+      },
+      {
+        "type": "common",
+        "second_level": "Wallets",
+        "top_level": "Women Bags / Men Bags"
+      },
+      {
+        "type": "common",
+        "second_level": "Crossbody & Shoulder Bags",
+        "top_level": "Women Bags / Men Bags"
+      },
+      {
+        "type": "common",
+        "second_level": "Tote Bags",
+        "top_level": "Women Bags / Men Bags"
+      },
+      {
+        "type": "common",
+        "second_level": "Decoration",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Kitchenware",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Party Supplies",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Home Organizers",
+        "top_level": "Home & Living"
+      },
+      {
+        "type": "common",
+        "second_level": "Toys & Games",
+        "top_level": "Hobbies & Collections"
+      },
+      {
+        "type": "common",
+        "second_level": "Souvenirs",
+        "top_level": "Hobbies & Collections"
+      },
+      {
+        "type": "common",
+        "second_level": "Photo Albums",
+        "top_level": "Hobbies & Collections"
+      },
+      {
+        "type": "common",
+        "second_level": "Gift Set & Hampers",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Alcoholic Beverages",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Bakery",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Snacks",
+        "top_level": "Food & Beverages"
+      },
+      {
+        "type": "common",
+        "second_level": "Beauty Sets & Packages",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Perfumes & Fragrances",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Skincare",
+        "top_level": "Beauty"
+      },
+      {
+        "type": "common",
+        "second_level": "Audio",
+        "top_level": "Electronics"
+      },
+      {
+        "type": "common",
+        "second_level": "Mobile & Gadgets",
+        "top_level": "Electronics"
+      },
+      {
+        "type": "common",
+        "second_level": "Computers & Accessories",
+        "top_level": "Electronics"
+      },
+      {
+        "type": "common",
+        "second_level": "Cameras & Drones",
+        "top_level": "Electronics"
+      },
+      {
+        "type": "common",
+        "second_level": "Gaming & Consoles",
+        "top_level": "Electronics"
+      },
+      {
+        "type": "common",
+        "second_level": "Dresses",
+        "top_level": "Women Clothes / Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Tops",
+        "top_level": "Women Clothes / Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Sets",
+        "top_level": "Women Clothes / Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "Jackets, Coats & Vests",
+        "top_level": "Women Clothes / Men Clothes"
+      },
+      {
+        "type": "common",
+        "second_level": "TVs & Accessories",
+        "top_level": "Home Appliances"
+      },
+      {
+        "type": "common",
+        "second_level": "Kitchen Appliances",
+        "top_level": "Home Appliances"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Media Players",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Microphones",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Others",
+        "top_level": "Audio",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automobile Spare Parts",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Automotive Keychains & Key Covers",
+        "top_level": "Automobiles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Mittens & Footwear",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Boy Shoes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Girl Clothes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Girl Shoes",
+        "top_level": "Baby & Kids Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Beauty Tools",
+        "top_level": "Beauty",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Men's Care",
+        "top_level": "Beauty",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Camera Care",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Lenses",
+        "top_level": "Cameras & Drones",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Desktop & Laptop Components",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Desktop Computers",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Network Components",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Softwares",
+        "top_level": "Computers & Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Gloves",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Investment Precious Metals",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Neckties, Bow Ties & Cravats",
+        "top_level": "Fashion Accessories",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Breakfast Cereals & Spread",
+        "top_level": "Food & Beverages",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Food Staples",
+        "top_level": "Food & Beverages",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Console Machines",
+        "top_level": "Gaming & Consoles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Sexual Wellness",
+        "top_level": "Health",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "CD, DVD & Bluray",
+        "top_level": "Hobbies & Collections",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Bathrooms",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Dinnerware",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Furniture",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Gardening",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Hand Warmers, Hot Water Bags & Ice Bags",
+        "top_level": "Home & Living",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Batteries",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Remote Controls",
+        "top_level": "Home Appliances",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Waist Bags & Chest Bags",
+        "top_level": "Men Bags",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Innerwear & Underwear",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Jeans",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Occupational Attire",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Suits",
+        "top_level": "Men Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Oxfords & Lace",
+        "top_level": "Men Shoes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Sim Cards",
+        "top_level": "Mobile & Gadgets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Walkie Talkies",
+        "top_level": "Mobile & Gadgets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Baby Safety",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Diapering & Potty",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Feeding Essentials",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Maternity Healthcare",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Milk Formula & Baby Food",
+        "top_level": "Mom & Baby",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Motorcycle Spare Parts",
+        "top_level": "Motorcycles",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Men Muslim Wear",
+        "top_level": "Muslim Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Women Muslim Wear",
+        "top_level": "Muslim Fashion",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Litter & Toilet",
+        "top_level": "Pets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Pet Food",
+        "top_level": "Pets",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Letters & Envelopes",
+        "top_level": "Stationery",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Events & Attractions",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Services",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Telco",
+        "top_level": "Tickets, Vouchers & Services",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Jumpsuits, Playsuits & Overalls",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Lingerie & Underwear",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      },
+      {
+        "type": "uncommon",
+        "second_level": "Maternity Wear",
+        "top_level": "Women Clothes",
+        "confidence": "inferred_from_demand"
+      }
+    ]
+  }
+}

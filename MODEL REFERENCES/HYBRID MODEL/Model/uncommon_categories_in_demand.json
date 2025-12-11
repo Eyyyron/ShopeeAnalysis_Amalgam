@@ -1,0 +1,1558 @@
+{
+    "back-to-school": [
+        {
+            "Audio": [
+                "Earphones, Headphones & Headsets",
+                "Home Audio & Speakers"
+            ]
+        },
+        {
+            "Automobiles": [
+                "Automotive Care",
+                "Automobile Interior Accessories",
+                "Automobile Spare Parts",
+                "Automobile Exterior Accessories",
+                "Automotive Oils & Lubes"
+            ]
+        },
+        {
+            "Baby & Kids Fashion": [
+                "Baby & Kids Accessories",
+                "Boy Clothes",
+                "Girl Clothes",
+                "Baby Clothes",
+                "Girl Shoes",
+                "Boy Shoes"
+            ]
+        },
+        {
+            "Beauty": [
+                "Beauty Tools",
+                "Skincare",
+                "Makeup",
+                "Bath & Body Care",
+                "Perfumes & Fragrances",
+                "Hair Care",
+                "Hand, Foot & Nail Care",
+                "Beauty Sets & Packages",
+                "Men's Care",
+                "Others"
+            ]
+        },
+        {
+            "Books & Magazines": [
+                "Books"
+            ]
+        },
+        {
+            "Cameras & Drones": [
+                "Camera Accessories",
+                "Security Cameras & Systems"
+            ]
+        },
+        {
+            "Computers & Accessories": [
+                "Peripherals & Accessories",
+                "Network Components",
+                "Printers & Scanners",
+                "Keyboards & Mice"
+            ]
+        },
+        {
+            "Fashion Accessories": [
+                "Rings",
+                "Hair Accessories",
+                "Additional Accessories",
+                "Eyewear",
+                "Earrings",
+                "Bracelets & Bangles",
+                "Hats & Caps",
+                "Necklaces",
+                "Belts"
+            ]
+        },
+        {
+            "Food & Beverages": [
+                "Snacks",
+                "Beverages",
+                "Cooking Essentials",
+                "Food Staples",
+                "Dairy & Eggs",
+                "Baking Needs",
+                "Convenience / Ready"
+            ]
+        },
+        {
+            "Gaming & Consoles": [
+                "Console Accessories",
+                "Video Games"
+            ]
+        },
+        {
+            "Health": [
+                "Medical Supplies",
+                "Personal Care",
+                "Food Supplement",
+                "Sexual Wellness"
+            ]
+        },
+        {
+            "Hobbies & Collections": [
+                "Needlework",
+                "Souvenirs",
+                "Collectible Items",
+                "Toys & Games"
+            ]
+        },
+        {
+            "Home & Living": [
+                "Decoration",
+                "Tools & Home Improvement",
+                "Home Care Supplies",
+                "Home Organizers",
+                "Kitchenware",
+                "Lighting",
+                "Dinnerware",
+                "Party Supplies",
+                "Bathrooms",
+                "Furniture",
+                "Bedding",
+                "Home Fragrance & Aromatherapy",
+                "Gardening",
+                "Safety & Security",
+                "Others",
+                "Hand Warmers, Hot Water Bags & Ice Bags"
+            ]
+        },
+        {
+            "Home Appliances": [
+                "Kitchen Appliances",
+                "Large Household Appliances",
+                "Electrical Circuitry & Parts",
+                "Small Household Appliances",
+                "Others",
+                "Remote Controls"
+            ]
+        },
+        {
+            "Men Bags": [
+                "Wallets",
+                "Crossbody & Shoulder Bags"
+            ]
+        },
+        {
+            "Men Clothes": [
+                "Tops",
+                "Shorts",
+                "Socks",
+                "Pants",
+                "Innerwear & Underwear",
+                "Hoodies & Sweatshirts"
+            ]
+        },
+        {
+            "Men Shoes": [
+                "Sandals & Flip Flops",
+                "Shoe Care & Accessories",
+                "Sneakers"
+            ]
+        },
+        {
+            "Mobile & Gadgets": [
+                "Accessories",
+                "Mobile Phones",
+                "Sim Cards",
+                "Tablets",
+                "Others"
+            ]
+        },
+        {
+            "Mom & Baby": [
+                "Bath & Body Care",
+                "Toys",
+                "Diapering & Potty",
+                "Feeding Essentials",
+                "Baby Safety",
+                "Baby Healthcare"
+            ]
+        },
+        {
+            "Motorcycles": [
+                "Motorcycle Spare Parts",
+                "Motorcycle Accessories",
+                "Motorcycle Helmets & Accessories"
+            ]
+        },
+        {
+            "Pets": [
+                "Pet Food",
+                "Litter & Toilet",
+                "Pet Accessories",
+                "Pet Grooming",
+                "Pet Healthcare"
+            ]
+        },
+        {
+            "Sports & Outdoors": [
+                "Sports & Outdoor Recreation Equipments",
+                "Sports & Outdoor Accessories",
+                "Sports & Outdoor Apparels"
+            ]
+        },
+        {
+            "Stationery": [
+                "School & Office Equipment",
+                "Notebooks & Papers",
+                "Gift & Wrapping",
+                "Writing & Correction",
+                "Art Supplies",
+                "Letters & Envelopes",
+                "Others"
+            ]
+        },
+        {
+            "Tickets, Vouchers & Services": [
+                "Telco"
+            ]
+        },
+        {
+            "Travel & Luggage": [
+                "Travel Accessories",
+                "Travel Bags"
+            ]
+        },
+        {
+            "Watches": [
+                "Women Watches",
+                "Men Watches"
+            ]
+        },
+        {
+            "Women Bags": [
+                "Crossbody & Shoulder Bags",
+                "Tote Bags",
+                "Wallets",
+                "Backpacks",
+                "Bag Accessories"
+            ]
+        },
+        {
+            "Women Clothes": [
+                "Lingerie & Underwear",
+                "Tops",
+                "Shorts",
+                "Pants & Leggings",
+                "Socks & Stockings",
+                "Sleepwear & Pajamas",
+                "Dresses",
+                "Jeans",
+                "Maternity Wear",
+                "Sets",
+                "Fabric"
+            ]
+        },
+        {
+            "Women Shoes": [
+                "Flat Sandals & Flip Flops",
+                "Shoe Care & Accessories",
+                "Sneakers",
+                "Flats",
+                "Heels"
+            ]
+        }
+    ],
+    "christmas": [
+        {
+            "Audio": [
+                "Earphones, Headphones & Headsets",
+                "Home Audio & Speakers"
+            ]
+        },
+        {
+            "Automobiles": [
+                "Automobile Spare Parts",
+                "Automotive Care",
+                "Automobile Interior Accessories",
+                "Automotive Oils & Lubes",
+                "Automobile Exterior Accessories"
+            ]
+        },
+        {
+            "Baby & Kids Fashion": [
+                "Baby & Kids Accessories",
+                "Boy Clothes",
+                "Girl Clothes",
+                "Baby Clothes",
+                "Girl Shoes",
+                "Boy Shoes"
+            ]
+        },
+        {
+            "Beauty": [
+                "Beauty Tools",
+                "Makeup",
+                "Perfumes & Fragrances",
+                "Skincare",
+                "Bath & Body Care",
+                "Hand, Foot & Nail Care",
+                "Hair Care",
+                "Beauty Sets & Packages",
+                "Men's Care",
+                "Others"
+            ]
+        },
+        {
+            "Books & Magazines": [
+                "Books"
+            ]
+        },
+        {
+            "Cameras & Drones": [
+                "Camera Accessories",
+                "Security Cameras & Systems"
+            ]
+        },
+        {
+            "Computers & Accessories": [
+                "Peripherals & Accessories",
+                "Network Components",
+                "Printers & Scanners"
+            ]
+        },
+        {
+            "Fashion Accessories": [
+                "Rings",
+                "Hair Accessories",
+                "Additional Accessories",
+                "Eyewear",
+                "Bracelets & Bangles",
+                "Hats & Caps",
+                "Earrings",
+                "Necklaces",
+                "Belts",
+                "Others",
+                "Scarves & Shawls"
+            ]
+        },
+        {
+            "Food & Beverages": [
+                "Snacks",
+                "Beverages",
+                "Food Staples",
+                "Dairy & Eggs",
+                "Cooking Essentials",
+                "Baking Needs",
+                "Convenience / Ready"
+            ]
+        },
+        {
+            "Gaming & Consoles": [
+                "Console Accessories"
+            ]
+        },
+        {
+            "Health": [
+                "Medical Supplies",
+                "Personal Care",
+                "Food Supplement",
+                "Sexual Wellness"
+            ]
+        },
+        {
+            "Hobbies & Collections": [
+                "Souvenirs",
+                "Needlework",
+                "Toys & Games",
+                "Collectible Items",
+                "Photo Albums"
+            ]
+        },
+        {
+            "Home & Living": [
+                "Decoration",
+                "Tools & Home Improvement",
+                "Kitchenware",
+                "Lighting",
+                "Home Care Supplies",
+                "Home Organizers",
+                "Dinnerware",
+                "Party Supplies",
+                "Bathrooms",
+                "Furniture",
+                "Bedding",
+                "Gardening",
+                "Home Fragrance & Aromatherapy",
+                "Safety & Security",
+                "Hand Warmers, Hot Water Bags & Ice Bags",
+                "Others"
+            ]
+        },
+        {
+            "Home Appliances": [
+                "Kitchen Appliances",
+                "Large Household Appliances",
+                "Electrical Circuitry & Parts",
+                "Small Household Appliances",
+                "Remote Controls",
+                "Batteries"
+            ]
+        },
+        {
+            "Men Bags": [
+                "Wallets"
+            ]
+        },
+        {
+            "Men Clothes": [
+                "Tops",
+                "Shorts",
+                "Socks",
+                "Pants",
+                "Innerwear & Underwear",
+                "Jackets, Coats & Vests",
+                "Hoodies & Sweatshirts",
+                "Jeans"
+            ]
+        },
+        {
+            "Men Shoes": [
+                "Sandals & Flip Flops",
+                "Shoe Care & Accessories",
+                "Sneakers"
+            ]
+        },
+        {
+            "Mobile & Gadgets": [
+                "Accessories",
+                "Sim Cards",
+                "Mobile Phones",
+                "Tablets"
+            ]
+        },
+        {
+            "Mom & Baby": [
+                "Toys",
+                "Bath & Body Care",
+                "Feeding Essentials",
+                "Diapering & Potty",
+                "Baby Safety",
+                "Baby Healthcare",
+                "Nursery"
+            ]
+        },
+        {
+            "Motorcycles": [
+                "Motorcycle Spare Parts",
+                "Motorcycle Accessories",
+                "Motorcycle Helmets & Accessories"
+            ]
+        },
+        {
+            "Pets": [
+                "Litter & Toilet",
+                "Pet Food",
+                "Pet Accessories",
+                "Pet Grooming",
+                "Pet Healthcare",
+                "Pet Clothing & Accessories"
+            ]
+        },
+        {
+            "Sports & Outdoors": [
+                "Sports & Outdoor Recreation Equipments",
+                "Sports & Outdoor Accessories",
+                "Sports & Outdoor Apparels"
+            ]
+        },
+        {
+            "Stationery": [
+                "School & Office Equipment",
+                "Gift & Wrapping",
+                "Notebooks & Papers",
+                "Writing & Correction",
+                "Art Supplies",
+                "Letters & Envelopes"
+            ]
+        },
+        {
+            "Tickets, Vouchers & Services": [
+                "Telco"
+            ]
+        },
+        {
+            "Travel & Luggage": [
+                "Travel Accessories",
+                "Travel Bags"
+            ]
+        },
+        {
+            "Watches": [
+                "Women Watches",
+                "Men Watches"
+            ]
+        },
+        {
+            "Women Bags": [
+                "Crossbody & Shoulder Bags",
+                "Wallets",
+                "Tote Bags",
+                "Bag Accessories",
+                "Backpacks",
+                "Waist Bags & Chest Bags"
+            ]
+        },
+        {
+            "Women Clothes": [
+                "Lingerie & Underwear",
+                "Tops",
+                "Pants & Leggings",
+                "Shorts",
+                "Socks & Stockings",
+                "Sleepwear & Pajamas",
+                "Dresses",
+                "Sets",
+                "Fabric",
+                "Jeans",
+                "Maternity Wear"
+            ]
+        },
+        {
+            "Women Shoes": [
+                "Flat Sandals & Flip Flops",
+                "Shoe Care & Accessories",
+                "Sneakers",
+                "Flats",
+                "Heels"
+            ]
+        }
+    ],
+    "halloween": [
+        {
+            "Audio": [
+                "Earphones, Headphones & Headsets",
+                "Home Audio & Speakers"
+            ]
+        },
+        {
+            "Automobiles": [
+                "Automobile Spare Parts",
+                "Automotive Care",
+                "Automobile Interior Accessories",
+                "Automotive Oils & Lubes"
+            ]
+        },
+        {
+            "Baby & Kids Fashion": [
+                "Baby & Kids Accessories",
+                "Girl Clothes",
+                "Boy Clothes",
+                "Baby Clothes"
+            ]
+        },
+        {
+            "Beauty": [
+                "Perfumes & Fragrances",
+                "Makeup",
+                "Skincare",
+                "Beauty Tools",
+                "Bath & Body Care",
+                "Hand, Foot & Nail Care",
+                "Hair Care",
+                "Beauty Sets & Packages",
+                "Men's Care"
+            ]
+        },
+        {
+            "Books & Magazines": [
+                "Books"
+            ]
+        },
+        {
+            "Computers & Accessories": [
+                "Peripherals & Accessories"
+            ]
+        },
+        {
+            "Fashion Accessories": [
+                "Hair Accessories",
+                "Additional Accessories",
+                "Eyewear",
+                "Hats & Caps",
+                "Bracelets & Bangles"
+            ]
+        },
+        {
+            "Food & Beverages": [
+                "Beverages",
+                "Snacks",
+                "Food Staples",
+                "Dairy & Eggs",
+                "Cooking Essentials"
+            ]
+        },
+        {
+            "Health": [
+                "Medical Supplies",
+                "Personal Care",
+                "Food Supplement",
+                "Sexual Wellness"
+            ]
+        },
+        {
+            "Hobbies & Collections": [
+                "Souvenirs",
+                "Needlework",
+                "Toys & Games"
+            ]
+        },
+        {
+            "Home & Living": [
+                "Decoration",
+                "Tools & Home Improvement",
+                "Lighting",
+                "Kitchenware",
+                "Home Care Supplies",
+                "Home Organizers",
+                "Dinnerware",
+                "Party Supplies",
+                "Bathrooms",
+                "Furniture",
+                "Bedding",
+                "Gardening",
+                "Safety & Security",
+                "Home Fragrance & Aromatherapy",
+                "Hand Warmers, Hot Water Bags & Ice Bags"
+            ]
+        },
+        {
+            "Home Appliances": [
+                "Large Household Appliances",
+                "Kitchen Appliances",
+                "Electrical Circuitry & Parts",
+                "Small Household Appliances"
+            ]
+        },
+        {
+            "Men Clothes": [
+                "Tops",
+                "Shorts",
+                "Socks",
+                "Pants",
+                "Innerwear & Underwear"
+            ]
+        },
+        {
+            "Men Shoes": [
+                "Sandals & Flip Flops",
+                "Shoe Care & Accessories"
+            ]
+        },
+        {
+            "Mobile & Gadgets": [
+                "Accessories",
+                "Sim Cards",
+                "Mobile Phones"
+            ]
+        },
+        {
+            "Mom & Baby": [
+                "Toys",
+                "Bath & Body Care",
+                "Diapering & Potty",
+                "Feeding Essentials",
+                "Baby Safety",
+                "Baby Healthcare"
+            ]
+        },
+        {
+            "Motorcycles": [
+                "Motorcycle Spare Parts",
+                "Motorcycle Accessories"
+            ]
+        },
+        {
+            "Pets": [
+                "Litter & Toilet",
+                "Pet Food",
+                "Pet Accessories",
+                "Pet Grooming",
+                "Pet Healthcare"
+            ]
+        },
+        {
+            "Sports & Outdoors": [
+                "Sports & Outdoor Recreation Equipments",
+                "Sports & Outdoor Accessories",
+                "Sports & Outdoor Apparels"
+            ]
+        },
+        {
+            "Stationery": [
+                "Gift & Wrapping",
+                "School & Office Equipment",
+                "Notebooks & Papers",
+                "Writing & Correction",
+                "Art Supplies"
+            ]
+        },
+        {
+            "Travel & Luggage": [
+                "Travel Accessories",
+                "Travel Bags"
+            ]
+        },
+        {
+            "Watches": [
+                "Women Watches"
+            ]
+        },
+        {
+            "Women Bags": [
+                "Crossbody & Shoulder Bags",
+                "Tote Bags",
+                "Wallets",
+                "Bag Accessories"
+            ]
+        },
+        {
+            "Women Clothes": [
+                "Lingerie & Underwear",
+                "Tops",
+                "Pants & Leggings",
+                "Shorts",
+                "Socks & Stockings",
+                "Sleepwear & Pajamas"
+            ]
+        },
+        {
+            "Women Shoes": [
+                "Flat Sandals & Flip Flops",
+                "Shoe Care & Accessories"
+            ]
+        }
+    ],
+    "holyweek": [
+        {
+            "Audio": [
+                "Earphones, Headphones & Headsets"
+            ]
+        },
+        {
+            "Automobiles": [
+                "Automotive Care",
+                "Automobile Spare Parts",
+                "Automobile Interior Accessories"
+            ]
+        },
+        {
+            "Baby & Kids Fashion": [
+                "Girl Clothes",
+                "Baby & Kids Accessories",
+                "Boy Clothes",
+                "Baby Clothes"
+            ]
+        },
+        {
+            "Beauty": [
+                "Skincare",
+                "Makeup",
+                "Bath & Body Care",
+                "Beauty Tools",
+                "Hand, Foot & Nail Care",
+                "Hair Care",
+                "Perfumes & Fragrances",
+                "Beauty Sets & Packages"
+            ]
+        },
+        {
+            "Fashion Accessories": [
+                "Additional Accessories",
+                "Hair Accessories",
+                "Eyewear",
+                "Hats & Caps",
+                "Necklaces",
+                "Bracelets & Bangles",
+                "Earrings"
+            ]
+        },
+        {
+            "Food & Beverages": [
+                "Snacks",
+                "Beverages"
+            ]
+        },
+        {
+            "Health": [
+                "Medical Supplies",
+                "Personal Care",
+                "Food Supplement"
+            ]
+        },
+        {
+            "Hobbies & Collections": [
+                "Needlework",
+                "Souvenirs",
+                "Collectible Items"
+            ]
+        },
+        {
+            "Home & Living": [
+                "Decoration",
+                "Tools & Home Improvement",
+                "Home Care Supplies",
+                "Home Organizers",
+                "Kitchenware",
+                "Party Supplies",
+                "Dinnerware",
+                "Lighting",
+                "Bathrooms",
+                "Bedding",
+                "Furniture",
+                "Gardening",
+                "Home Fragrance & Aromatherapy"
+            ]
+        },
+        {
+            "Home Appliances": [
+                "Others",
+                "Large Household Appliances",
+                "Kitchen Appliances",
+                "E"
+            ]
+        },
+        {
+            "Men Clothes": [
+                "Tops",
+                "Shorts",
+                "Socks",
+                "Pants",
+                "Innerwear & Underwear"
+            ]
+        },
+        {
+            "Men Shoes": [
+                "Sandals & Flip Flops",
+                "Shoe Care & Accessories"
+            ]
+        },
+        {
+            "Mobile & Gadgets": [
+                "Accessories",
+                "Mobile Phones",
+                "Sim Cards",
+                "Tablets"
+            ]
+        },
+        {
+            "Mom & Baby": [
+                "Bath & Body Care",
+                "Toys",
+                "Diapering & Potty",
+                "Feeding Essentials",
+                "Baby Safety",
+                "Baby Healthcare"
+            ]
+        },
+        {
+            "Motorcycles": [
+                "Motorcycle Spare Parts",
+                "Motorcycle Accessories"
+            ]
+        },
+        {
+            "Pets": [
+                "Pet Food",
+                "Litter & Toilet",
+                "Pet Accessories",
+                "Pet Healthcare",
+                "Pet Grooming"
+            ]
+        },
+        {
+            "Sports & Outdoors": [
+                "Sports & Outdoor Recreation Equipments",
+                "Sports & Outdoor Accessories",
+                "Sports & Outdoor Apparels"
+            ]
+        },
+        {
+            "Stationery": [
+                "Gift & Wrapping",
+                "Notebooks & Papers",
+                "Writing & Correction",
+                "School & Office Equipment",
+                "Art Supplies",
+                "Letters & Envelopes"
+            ]
+        },
+        {
+            "Tickets, Vouchers & Services": [
+                "Telco"
+            ]
+        },
+        {
+            "Travel & Luggage": [
+                "Travel Accessories"
+            ]
+        },
+        {
+            "Women Bags": [
+                "Crossbody & Shoulder Bags",
+                "Wallets",
+                "Tote Bags"
+            ]
+        },
+        {
+            "Women Clothes": [
+                "Lingerie & Underwear",
+                "Tops",
+                "Shorts",
+                "Pants & Leggings",
+                "Dresses",
+                "Socks & Stockings",
+                "Sleepwear & Pajamas"
+            ]
+        },
+        {
+            "Women Shoes": [
+                "Flat Sandals & Flip Flops",
+                "Sneakers"
+            ]
+        }
+    ],
+    "rainy": [
+        {
+            "Audio": [
+                "Earphones, Headphones & Headsets",
+                "Home Audio & Speakers",
+                "Microphones",
+                "Audio & Video Cables & Converters"
+            ]
+        },
+        {
+            "Automobiles": [
+                "Automotive Care",
+                "Automobile Spare Parts",
+                "Automobile Interior Accessories",
+                "Automobile Exterior Accessories",
+                "Automotive Oils & Lubes",
+                "Automotive Tools"
+            ]
+        },
+        {
+            "Baby & Kids Fashion": [
+                "Baby & Kids Accessories",
+                "Boy Clothes",
+                "Girl Clothes",
+                "Baby Clothes",
+                "Girl Shoes",
+                "Boy Shoes"
+            ]
+        },
+        {
+            "Beauty": [
+                "Beauty Tools",
+                "Makeup",
+                "Skincare",
+                "Perfumes & Fragrances",
+                "Bath & Body Care",
+                "Hand, Foot & Nail Care",
+                "Hair Care",
+                "Beauty Sets & Packages",
+                "Men's Care",
+                "Others"
+            ]
+        },
+        {
+            "Books & Magazines": [
+                "Books"
+            ]
+        },
+        {
+            "Cameras & Drones": [
+                "Camera Accessories",
+                "Security Cameras & Systems"
+            ]
+        },
+        {
+            "Computers & Accessories": [
+                "Peripherals & Accessories",
+                "Network Components",
+                "Printers & Scanners",
+                "Keyboards & Mice",
+                "Data Storage"
+            ]
+        },
+        {
+            "Fashion Accessories": [
+                "Rings",
+                "Hair Accessories",
+                "Additional Accessories",
+                "Eyewear",
+                "Bracelets & Bangles",
+                "Hats & Caps",
+                "Earrings",
+                "Necklaces",
+                "Belts",
+                "Others",
+                "Scarves & Shawls"
+            ]
+        },
+        {
+            "Food & Beverages": [
+                "Snacks",
+                "Beverages",
+                "Food Staples",
+                "Cooking Essentials",
+                "Dairy & Eggs",
+                "Baking Needs",
+                "Convenience / Ready",
+                "Breakfast Cereals & Spread"
+            ]
+        },
+        {
+            "Gaming & Consoles": [
+                "Console Accessories",
+                "Video Games"
+            ]
+        },
+        {
+            "Health": [
+                "Medical Supplies",
+                "Personal Care",
+                "Food Supplement",
+                "Sexual Wellness"
+            ]
+        },
+        {
+            "Hobbies & Collections": [
+                "Souvenirs",
+                "Needlework",
+                "Collectible Items",
+                "Toys & Games",
+                "Photo Albums"
+            ]
+        },
+        {
+            "Home & Living": [
+                "Decoration",
+                "Tools & Home Improvement",
+                "Home Care Supplies",
+                "Kitchenware",
+                "Lighting",
+                "Home Organizers",
+                "Dinnerware",
+                "Party Supplies",
+                "Bathrooms",
+                "Furniture",
+                "Bedding",
+                "Home Fragrance & Aromatherapy",
+                "Gardening",
+                "Safety & Security",
+                "Hand Warmers, Hot Water Bags & Ice Bags",
+                "Others"
+            ]
+        },
+        {
+            "Home Appliances": [
+                "Kitchen Appliances",
+                "Large Household Appliances",
+                "Electrical Circuitry & Parts",
+                "Small Household Appliances",
+                "Others",
+                "Batteries",
+                "Remote Controls"
+            ]
+        },
+        {
+            "Men Bags": [
+                "Wallets",
+                "Crossbody & Shoulder Bags",
+                "Waist Bags & Chest Bags",
+                "Backpacks"
+            ]
+        },
+        {
+            "Men Clothes": [
+                "Tops",
+                "Shorts",
+                "Socks",
+                "Pants",
+                "Innerwear & Underwear",
+                "Hoodies & Sweatshirts",
+                "Jackets, Coats & Vests",
+                "Jeans",
+                "Occupational Attire"
+            ]
+        },
+        {
+            "Men Shoes": [
+                "Sandals & Flip Flops",
+                "Shoe Care & Accessories",
+                "Sneakers"
+            ]
+        },
+        {
+            "Mobile & Gadgets": [
+                "Accessories",
+                "Mobile Phones",
+                "Sim Cards",
+                "Tablets",
+                "Others",
+                "Wearable Devices"
+            ]
+        },
+        {
+            "Mom & Baby": [
+                "Bath & Body Care",
+                "Toys",
+                "Diapering & Potty",
+                "Feeding Essentials",
+                "Baby Safety",
+                "Baby Healthcare",
+                "Nursery"
+            ]
+        },
+        {
+            "Motorcycles": [
+                "Motorcycle Spare Parts",
+                "Motorcycle Accessories",
+                "Motorcycle Helmets & Accessories",
+                "Others"
+            ]
+        },
+        {
+            "Pets": [
+                "Litter & Toilet",
+                "Pet Food",
+                "Pet Accessories",
+                "Pet Grooming",
+                "Pet Healthcare",
+                "Pet Clothing & Accessories"
+            ]
+        },
+        {
+            "Sports & Outdoors": [
+                "Sports & Outdoor Recreation Equipments",
+                "Sports & Outdoor Accessories",
+                "Sports & Outdoor Apparels"
+            ]
+        },
+        {
+            "Stationery": [
+                "School & Office Equipment",
+                "Gift & Wrapping",
+                "Notebooks & Papers",
+                "Writing & Correction",
+                "Art Supplies",
+                "Letters & Envelopes",
+                "Others"
+            ]
+        },
+        {
+            "Tickets, Vouchers & Services": [
+                "Telco"
+            ]
+        },
+        {
+            "Travel & Luggage": [
+                "Travel Accessories",
+                "Travel Bags"
+            ]
+        },
+        {
+            "Watches": [
+                "Women Watches",
+                "Men Watches"
+            ]
+        },
+        {
+            "Women Bags": [
+                "Crossbody & Shoulder Bags",
+                "Tote Bags",
+                "Wallets",
+                "Bag Accessories",
+                "Backpacks",
+                "Top",
+                "Waist Bags & Chest Bags"
+            ]
+        },
+        {
+            "Women Clothes": [
+                "Lingerie & Underwear",
+                "Tops",
+                "Shorts",
+                "Pants & Leggings",
+                "Socks & Stockings",
+                "Sleepwear & Pajamas",
+                "Dresses",
+                "Jeans",
+                "Fabric",
+                "Sets",
+                "Maternity Wear",
+                "Skirts"
+            ]
+        },
+        {
+            "Women Shoes": [
+                "Flat Sandals & Flip Flops",
+                "Shoe Care & Accessories",
+                "Sneakers",
+                "Flats",
+                "Heels",
+                "Wedges"
+            ]
+        }
+    ],
+    "summer": [
+        {
+            "Audio": [
+                "Earphones, Headphones & Headsets",
+                "Home Audio & Speakers"
+            ]
+        },
+        {
+            "Automobiles": [
+                "Automotive Care",
+                "Automobile Spare Parts",
+                "Automobile Interior Accessories",
+                "Automobile Exterior Accessories"
+            ]
+        },
+        {
+            "Baby & Kids Fashion": [
+                "Girl Clothes",
+                "Boy Clothes",
+                "Baby & Kids Accessories",
+                "Baby Clothes"
+            ]
+        },
+        {
+            "Beauty": [
+                "Skincare",
+                "Makeup",
+                "Bath & Body Care",
+                "Beauty Tools",
+                "Hair Care",
+                "Hand, Foot & Nail Care",
+                "Perfumes & Fragrances",
+                "Beauty Sets & Packages",
+                "Men's Care"
+            ]
+        },
+        {
+            "Books & Magazines": [
+                "Books"
+            ]
+        },
+        {
+            "Cameras & Drones": [
+                "Security Cameras & Systems",
+                "Camera Accessories"
+            ]
+        },
+        {
+            "Computers & Accessories": [
+                "Peripherals & Accessories"
+            ]
+        },
+        {
+            "Fashion Accessories": [
+                "Additional Accessories",
+                "Hair Accessories",
+                "Eyewear",
+                "Hats & Caps",
+                "Earrings",
+                "Necklaces",
+                "Bracelets & Bangles",
+                "Belts"
+            ]
+        },
+        {
+            "Food & Beverages": [
+                "Beverages",
+                "Snacks",
+                "Cooking Essentials",
+                "Dairy & Eggs",
+                "Food Staples"
+            ]
+        },
+        {
+            "Health": [
+                "Medical Supplies",
+                "Personal Care",
+                "Food Supplement"
+            ]
+        },
+        {
+            "Hobbies & Collections": [
+                "Souvenirs",
+                "Needlework",
+                "Collectible Items"
+            ]
+        },
+        {
+            "Home & Living": [
+                "Decoration",
+                "Home Care Supplies",
+                "Tools & Home Improvement",
+                "Home Organizers",
+                "Kitchenware",
+                "Party Supplies",
+                "Dinnerware",
+                "Lighting",
+                "Bathrooms",
+                "Bedding",
+                "Furniture",
+                "Gardening",
+                "Home Fragrance & Aromatherapy",
+                "Safety & Security"
+            ]
+        },
+        {
+            "Home Appliances": [
+                "Large Household Appliances",
+                "Others",
+                "Kitchen Appliances",
+                "E",
+                "Electrical Circuitry & Parts",
+                "Small Household Appliances"
+            ]
+        },
+        {
+            "Men Clothes": [
+                "Tops",
+                "Shorts",
+                "Socks",
+                "Pants",
+                "Innerwear & Underwear"
+            ]
+        },
+        {
+            "Men Shoes": [
+                "Sandals & Flip Flops",
+                "Shoe Care & Accessories"
+            ]
+        },
+        {
+            "Mobile & Gadgets": [
+                "Accessories",
+                "Mobile Phones",
+                "Sim Cards",
+                "Tablets",
+                "Others"
+            ]
+        },
+        {
+            "Mom & Baby": [
+                "Bath & Body Care",
+                "Toys",
+                "Diapering & Potty",
+                "Feeding Essentials",
+                "Baby Safety",
+                "Baby Healthcare"
+            ]
+        },
+        {
+            "Motorcycles": [
+                "Motorcycle Spare Parts",
+                "Motorcycle Accessories"
+            ]
+        },
+        {
+            "Pets": [
+                "Pet Food",
+                "Litter & Toilet",
+                "Pet Accessories",
+                "Pet Healthcare",
+                "Pet Grooming"
+            ]
+        },
+        {
+            "Sports & Outdoors": [
+                "Sports & Outdoor Recreation Equipments",
+                "Sports & Outdoor Accessories",
+                "Sports & Outdoor Apparels"
+            ]
+        },
+        {
+            "Stationery": [
+                "Gift & Wrapping",
+                "Notebooks & Papers",
+                "Writing & Correction",
+                "School & Office Equipment",
+                "Art Supplies",
+                "Letters & Envelopes"
+            ]
+        },
+        {
+            "Tickets, Vouchers & Services": [
+                "Telco"
+            ]
+        },
+        {
+            "Travel & Luggage": [
+                "Travel Accessories"
+            ]
+        },
+        {
+            "Watches": [
+                "Women Watches"
+            ]
+        },
+        {
+            "Women Bags": [
+                "Crossbody & Shoulder Bags",
+                "Wallets",
+                "Tote Bags"
+            ]
+        },
+        {
+            "Women Clothes": [
+                "Lingerie & Underwear",
+                "Tops",
+                "Shorts",
+                "Pants & Leggings",
+                "Dresses",
+                "Sleepwear & Pajamas",
+                "Socks & Stockings",
+                "Jeans",
+                "Sets",
+                "Fabric"
+            ]
+        },
+        {
+            "Women Shoes": [
+                "Flat Sandals & Flip Flops",
+                "Sneakers",
+                "Shoe Care & Accessories",
+                "Heels",
+                "Flats"
+            ]
+        }
+    ],
+    "valentines": [
+        {
+            "Audio": [
+                "Earphones, Headphones & Headsets"
+            ]
+        },
+        {
+            "Baby & Kids Fashion": [
+                "Baby & Kids Accessories"
+            ]
+        },
+        {
+            "Beauty": [
+                "Skincare",
+                "Makeup",
+                "Bath & Body Care",
+                "Hair Care",
+                "Perfumes & Fragrances",
+                "Beauty Tools",
+                "Hand, Foot & Nail Care"
+            ]
+        },
+        {
+            "Fashion Accessories": [
+                "Additional Accessories",
+                "Hair Accessories"
+            ]
+        },
+        {
+            "Food & Beverages": [
+                "Snacks"
+            ]
+        },
+        {
+            "Health": [
+                "Medical Supplies",
+                "Personal Care",
+                "Food Supplement"
+            ]
+        },
+        {
+            "Hobbies & Collections": [
+                "Needlework",
+                "Souvenirs"
+            ]
+        },
+        {
+            "Home & Living": [
+                "Decoration",
+                "Home Care Supplies",
+                "Tools & Home Improvement",
+                "Home Organizers",
+                "Kitchenware",
+                "Party Supplies",
+                "Dinnerware",
+                "Lighting",
+                "Bathrooms",
+                "Furniture",
+                "Bedding"
+            ]
+        },
+        {
+            "Men Clothes": [
+                "Tops",
+                "Shorts"
+            ]
+        },
+        {
+            "Mobile & Gadgets": [
+                "Accessories"
+            ]
+        },
+        {
+            "Mom & Baby": [
+                "Bath & Body Care",
+                "Toys",
+                "Diapering & Potty",
+                "Feeding Essentials"
+            ]
+        },
+        {
+            "Motorcycles": [
+                "Motorcycle Spare Parts"
+            ]
+        },
+        {
+            "Pets": [
+                "Pet Food",
+                "Litter & Toilet",
+                "Pet Accessories"
+            ]
+        },
+        {
+            "Sports & Outdoors": [
+                "Sports & Outdoor Recreation Equipments",
+                "Sports & Outdoor Accessories"
+            ]
+        },
+        {
+            "Stationery": [
+                "Gift & Wrapping",
+                "Notebooks & Papers",
+                "Writing & Correction",
+                "School & Office Equipment"
+            ]
+        },
+        {
+            "Travel & Luggage": [
+                "Travel Accessories"
+            ]
+        },
+        {
+            "Women Clothes": [
+                "Lingerie & Underwear",
+                "Tops",
+                "Pants & Leggings"
+            ]
+        },
+        {
+            "Women Shoes": [
+                "Flat Sandals & Flip Flops"
+            ]
+        }
+    ]
+}
