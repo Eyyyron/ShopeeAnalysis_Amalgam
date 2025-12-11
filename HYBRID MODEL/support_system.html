@@ -6,137 +6,424 @@
 <title>Shopee Seasonal Decision Support</title>
 
 <style>
-    body { font-family: Arial; background: #f6f9fc; padding: 40px; }
-    .container { max-width: 520px; margin: auto; background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
-    h2 { text-align: center; margin-bottom: 20px; }
-    select, input, button { width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #ccc; font-size: 15px; }
-    button { background: #ff7a00; color: white; border: none; cursor: pointer; font-weight: bold; }
-    .result-box { display: none; background: #ffcc99; padding: 18px; border-left: 5px solid #ff7a00; border-radius: 8px; }
-    .tag { display: inline-block; background: #ff7a00; color: white; padding: 4px 10px; font-size: 13px; border-radius: 6px; margin: 4px 3px; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body { 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 40px 20px;
+    }
+    
+    .container { 
+        max-width: 900px; 
+        margin: auto; 
+        background: #fff; 
+        border-radius: 15px; 
+        box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        overflow: hidden;
+    }
+    
+    .header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 30px 25px;
+        text-align: center;
+    }
+    
+    .header h1 { font-size: 28px; margin-bottom: 8px; }
+    .header p { font-size: 14px; opacity: 0.9; }
+    
+    .content { padding: 30px 25px; }
+    
+    .mode-selector {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .mode-btn {
+        flex: 1;
+        padding: 12px;
+        border: 2px solid #667eea;
+        background: white;
+        color: #667eea;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        font-size: 14px;
+    }
+    
+    .mode-btn.active {
+        background: #667eea;
+        color: white;
+    }
+    
+    .mode-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    }
+    
+    .input-group {
+        margin-bottom: 25px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #333;
+        font-size: 14px;
+    }
+    
+    select, input {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+    }
+    
+    select:focus, input:focus {
+        outline: none;
+        border-color: #667eea;
+        box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+    
+    .results-section {
+        display: none;
+        margin-top: 30px;
+    }
+    
+    .results-section.active {
+        display: block;
+    }
+    
+    .section-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #333;
+        border-bottom: 3px solid #667eea;
+        padding-bottom: 10px;
+    }
+    
+    .category-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 12px;
+        margin-bottom: 25px;
+    }
+    
+    .category-item {
+        background: #f5f5f5;
+        padding: 15px;
+        border-radius: 8px;
+        border-left: 4px solid #667eea;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .category-item:hover {
+        background: #eef0ff;
+        transform: translateX(5px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+    }
+    
+    .category-name {
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 8px;
+        font-size: 13px;
+    }
+    
+    .category-type {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-size: 11px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    
+    .type-common {
+        background: #d4edda;
+        color: #155724;
+    }
+    
+    .type-uncommon {
+        background: #fff3cd;
+        color: #856404;
+    }
+    
+    .top-level {
+        font-size: 12px;
+        font-weight: bold;
+        color: #667eea;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 5px;
+    }
+    
+    .no-data {
+        padding: 20px;
+        background: #f5f5f5;
+        border-radius: 8px;
+        text-align: center;
+        color: #999;
+        font-style: italic;
+    }
 </style>
 </head>
 <body>
 
 <div class="container">
-    <h2>Seasonal Product Peaks</h2>
+    <div class="header">
+        <h1>🛍️ Seasonal Product Decision Support</h1>
+        <p>Discover which products are trending by season | Search all categories</p>
+    </div>
 
-    <button id="toggleMode" onclick="toggleMode()">Switch to Product Mode</button>
+    <div class="content">
+        <!-- Mode Selector -->
+        <div class="mode-selector">
+            <button class="mode-btn active" onclick="setMode('season')">By Season</button>
+            <button class="mode-btn" onclick="setMode('category')">Search Category</button>
+        </div>
 
-    <label id="seasonLabel" for="seasonSelect">Choose a season:</label>
-    <select id="seasonSelect" onchange="showSeasonResult()">
-        <option value="" disabled selected>-- Select a season --</option>
-    </select>
+        <!-- Season Mode -->
+        <div id="seasonMode" class="mode-content active">
+            <div class="input-group">
+                <label for="seasonSelect">Select a Season:</label>
+                <select id="seasonSelect" onchange="showSeasonResult()">
+                    <option value="" disabled selected>-- Choose a season --</option>
+                </select>
+            </div>
 
-    <label id="productLabel" for="productSearch" style="display:none;">Search product:</label>
-    <input list="productList" id="productSearch" oninput="showProductResult()" placeholder="Type to search..." style="display:none;">
-    <datalist id="productList"></datalist>
+            <div id="seasonResults" class="results-section">
+                <div id="commonCategoriesBox">
+                    <div class="section-title">Common Categories</div>
+                    <div id="commonCategories" class="category-grid"></div>
+                </div>
 
-    <div id="result" class="result-box"></div>
+                <div id="uncommonCategoriesBox" style="margin-top: 30px;">
+                    <div class="section-title">Uncommon But In-Demand Categories</div>
+                    <div id="uncommonCategories" class="category-grid"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Search Mode -->
+        <div id="categoryMode" class="mode-content" style="display:none;">
+            <div class="input-group">
+                <label for="categorySearch">Search a Category:</label>
+                <input 
+                    list="categoryList" 
+                    id="categorySearch" 
+                    oninput="showSearchResult()" 
+                    placeholder="Type category name..."
+                    autocomplete="off"
+                >
+                <datalist id="categoryList"></datalist>
+            </div>
+
+            <div id="searchResults" class="results-section">
+                <div class="section-title">Search Results</div>
+                <div id="searchContainer"></div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
-let currentMode = "season"; // default
-let data = {};  // Will store JSON loaded from file
+let allData = [];
+let currentMode = "season";
 
-// Load JSON from server
-fetch('season_top_products.json')
-    .then(response => response.json())
-    .then(json => {
-        data = json;
+// Load CSV data
+async function loadData() {
+    try {
+        const response = await fetch('hybrid_sarima_lstm_categories_unique_with_seasons.csv');
+        const csv = await response.text();
+        parseCSV(csv);
         populateSeasonDropdown();
-        loadProductList();
-    });
+        populateCategoryList();
+    } catch (error) {
+        console.error('Error loading CSV:', error);
+    }
+}
 
-// Populate season dropdown dynamically
+// Parse CSV
+function parseCSV(csv) {
+    const lines = csv.trim().split('\n');
+    const headers = lines[0].split(',').map(h => h.trim());
+    
+    for (let i = 1; i < lines.length; i++) {
+        if (!lines[i].trim()) continue;
+        
+        const values = lines[i].split(',');
+        const record = {};
+        
+        headers.forEach((h, idx) => {
+            record[h] = values[idx] ? values[idx].trim().replace(/^"|"$/g, '') : '';
+        });
+        
+        allData.push(record);
+    }
+}
+
+// Populate season dropdown
 function populateSeasonDropdown() {
-    const select = document.getElementById('seasonSelect');
-    select.innerHTML = '<option value="" disabled selected>-- Select a season --</option>';
-    Object.keys(data).forEach(s => {
+    const seasonSelect = document.getElementById('seasonSelect');
+    const seasons = [...new Set(allData.map(row => row.season))].sort();
+    
+    seasons.forEach(season => {
         const opt = document.createElement('option');
-        opt.value = s;
-        opt.text = capitalize(s);
-        select.appendChild(opt);
+        opt.value = season;
+        opt.text = season;
+        seasonSelect.appendChild(opt);
     });
 }
 
-// Populate datalist for product search
-function loadProductList() {
-    const list = document.getElementById("productList");
-    list.innerHTML = "";
-    Object.values(data).flat().forEach(item => {
-        list.innerHTML += `<option value="${item}">`;
+// Populate category datalist for search
+function populateCategoryList() {
+    const categoryList = document.getElementById('categoryList');
+    const categories = [...new Set(allData.map(row => `${row.top_level_category} > ${row.second_level_category}`))].sort();
+    
+    categories.forEach(cat => {
+        const opt = document.createElement('option');
+        opt.value = cat;
+        categoryList.appendChild(opt);
     });
 }
 
-// Toggle mode between season/product
-function toggleMode() {
-    const btn = document.getElementById("toggleMode");
-    const resultBox = document.getElementById("result");
-
-    const seasonSelect = document.getElementById("seasonSelect");
-    const seasonLabel = document.getElementById("seasonLabel");
-
-    const productSearch = document.getElementById("productSearch");
-    const productLabel = document.getElementById("productLabel");
-
-    resultBox.style.display = "none";
-
-    if (currentMode === "season") {
-        currentMode = "product";
-        btn.innerText = "Switch to Season Mode";
-
-        seasonSelect.style.display = "none";
-        seasonLabel.style.display = "none";
-
-        productSearch.style.display = "block";
-        productLabel.style.display = "block";
-    } else {
-        currentMode = "season";
-        btn.innerText = "Switch to Product Mode";
-
-        productSearch.style.display = "none";
-        productLabel.style.display = "none";
-
-        seasonSelect.style.display = "block";
-        seasonLabel.style.display = "block";
-    }
+// Set mode
+function setMode(mode) {
+    currentMode = mode;
+    const buttons = document.querySelectorAll('.mode-btn');
+    buttons.forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    
+    document.getElementById('seasonMode').style.display = mode === 'season' ? 'block' : 'none';
+    document.getElementById('categoryMode').style.display = mode === 'category' ? 'block' : 'none';
+    
+    // Clear results
+    document.getElementById('seasonResults').classList.remove('active');
+    document.getElementById('searchResults').classList.remove('active');
 }
 
-// Show top products for selected season
+// Show categories for selected season
 function showSeasonResult() {
-    const season = document.getElementById("seasonSelect").value;
-    const resultBox = document.getElementById("result");
-    if (!season || !data[season]) return;
-
-    const list = data[season];
-    resultBox.innerHTML = `<strong>Top Products:</strong><br><br>` +
-                          list.map(item => `<span class="tag">${item}</span>`).join("");
-    resultBox.style.display = "block";
-}
-
-// Show peak season for a product
-function showProductResult() {
-    const val = document.getElementById("productSearch").value.toLowerCase();
-    const resultBox = document.getElementById("result");
-    if (!val) return;
-
-    let seasonFound = "";
-    for (let s in data) {
-        if (data[s].map(x => x.toLowerCase()).includes(val)) {
-            seasonFound = s;
-            break;
+    const season = document.getElementById('seasonSelect').value;
+    if (!season) return;
+    
+    const filtered = allData.filter(row => row.season === season);
+    const commonGrouped = {};
+    const uncommonGrouped = {};
+    
+    // Group by category pair and separate by type
+    filtered.forEach(row => {
+        const key = `${row.top_level_category}|||${row.second_level_category}`;
+        const item = {
+            top_level: row.top_level_category,
+            second_level: row.second_level_category,
+            type: row.category_type
+        };
+        
+        if (row.category_type === 'COMMON') {
+            commonGrouped[key] = item;
+        } else if (row.category_type === 'UNCOMMON') {
+            uncommonGrouped[key] = item;
         }
+    });
+    
+    // Render common categories
+    const commonContainer = document.getElementById('commonCategories');
+    if (Object.keys(commonGrouped).length === 0) {
+        commonContainer.innerHTML = '<div class="no-data">No common categories for this season</div>';
+    } else {
+        commonContainer.innerHTML = Object.values(commonGrouped).map(item => `
+            <div class="category-item">
+                <div class="top-level">${item.top_level}</div>
+                <div class="category-name">${item.second_level}</div>
+                <span class="category-type type-common">COMMON</span>
+            </div>
+        `).join('');
     }
-    if (!seasonFound) return;
-
-    resultBox.innerHTML = `<strong>Peak Season:</strong><br><br>` +
-                          `<span class="tag">${capitalize(seasonFound)}</span>`;
-    resultBox.style.display = "block";
+    
+    // Render uncommon categories
+    const uncommonContainer = document.getElementById('uncommonCategories');
+    if (Object.keys(uncommonGrouped).length === 0) {
+        uncommonContainer.innerHTML = '<div class="no-data">No uncommon categories for this season</div>';
+    } else {
+        uncommonContainer.innerHTML = Object.values(uncommonGrouped).map(item => `
+            <div class="category-item">
+                <div class="top-level">${item.top_level}</div>
+                <div class="category-name">${item.second_level}</div>
+                <span class="category-type type-uncommon">UNCOMMON</span>
+            </div>
+        `).join('');
+    }
+    
+    document.getElementById('seasonResults').classList.add('active');
 }
 
-function capitalize(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
+// Search categories
+function showSearchResult() {
+    const search = document.getElementById('categorySearch').value.trim().toLowerCase();
+    const searchContainer = document.getElementById('searchContainer');
+    
+    if (!search) {
+        document.getElementById('searchResults').classList.remove('active');
+        return;
+    }
+    
+    // Search in both columns
+    const results = {};
+    
+    allData.forEach(row => {
+        const fullName = `${row.top_level_category} > ${row.second_level_category}`;
+        if (fullName.toLowerCase().includes(search) || 
+            row.top_level_category.toLowerCase().includes(search) ||
+            row.second_level_category.toLowerCase().includes(search)) {
+            
+            const key = `${row.top_level_category}|||${row.second_level_category}`;
+            if (!results[key]) {
+                results[key] = {
+                    top_level: row.top_level_category,
+                    second_level: row.second_level_category,
+                    type: row.category_type,
+                    seasons: []
+                };
+            }
+            if (!results[key].seasons.includes(row.season)) {
+                results[key].seasons.push(row.season);
+            }
+        }
+    });
+    
+    if (Object.keys(results).length === 0) {
+        searchContainer.innerHTML = '<div class="no-data">No categories found matching your search</div>';
+    } else {
+        searchContainer.innerHTML = Object.values(results).map(item => `
+            <div class="category-item">
+                <div class="top-level">${item.top_level}</div>
+                <div class="category-name">${item.second_level}</div>
+                <span class="category-type ${item.type === 'COMMON' ? 'type-common' : 'type-uncommon'}">
+                    ${item.type === 'COMMON' ? 'COMMON' : 'UNCOMMON'}
+                </span>
+                <div style="margin-top: 10px; font-size: 12px; color: #666;">
+                    <strong>Peak Seasons:</strong> ${item.seasons.sort().join(', ')}
+                </div>
+            </div>
+        `).join('');
+    }
+    
+    document.getElementById('searchResults').classList.add('active');
 }
+
+// Load data on page load
+window.addEventListener('load', loadData);
 </script>
 
 </body>
